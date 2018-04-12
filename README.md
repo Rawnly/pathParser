@@ -3,11 +3,11 @@
 
 ## Install
 ```sh
-	$ npm install path-fixer --save
+	$ npm install @splash-cli/path-fixer --save
 
 	#or
 
-	$ yarn add path-fixer
+	$ yarn add @splash-cli/path-fixer
 ```
 
 ## Usage
