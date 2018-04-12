@@ -1,0 +1,40 @@
+{
+  "name": "@splash-cli/path-fixer",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava",
+    "build": "babel src -d build",
+    "postinstall": "npm run build",
+    "prepublish": "rm -rf build",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "description": "> Replace '~' with user home path.",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rawnly/path-parser.git"
+  },
+  "keywords": [
+    "path",
+    "fix",
+    "parse",
+    "user",
+    "homedir"
+  ],
+  "author": "Federico Vitale <fedevitale99@gmail.com> (federicovitale.me)",
+  "bugs": {
+    "url": "https://github.com/Rawnly/path-parser/issues"
+  },
+  "homepage": "https://github.com/Rawnly/path-parser#readme"
+}
